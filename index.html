@@ -1,0 +1,309 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+    <title>Portal</title>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+</head>
+
+<body>
+    <div class="topo">
+        <div class="topoint">
+            <div class="topoleft">
+                <ul>
+                    <li><a href="./" id="a1" class="ativo">Home</a></li>
+                    <li><a href="quem-somos">Quem Somos</a></li>
+                    <li><a href="anuncie-aqui">Anuncie Aqui</a></li>
+                    <li><a href="contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toporight">
+                <input type="image" src="assets/images/lupa.png" style="margin:5px" width="13" height="13" />
+                <input type="text" name="busca" class="topobusca" placeholder="Busca..." />
+                <a href=""><img src="assets/images/youtube.png" width="26" height="26" /></a>
+                <a href=""><img src="assets/images/twitter.png" width="26" height="26" /></a>
+                <a href=""><img src="assets/images/facebook.png" width="26" height="26" /></a>
+                <a href=""><img src="assets/images/googleplus.png" width="26" height="26" /></a>
+                <a href=""><img src="assets/images/rss.png" width="26" height="26" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="topo2">
+        <div class="topo2int">
+            <div class="logo">
+                <img src="assets/images/logo.png" width="230" />
+            </div>
+            <div class="banner">PUBLICIDADE 278X90</div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menuint">
+            <img src="assets/images/menu.png" width="40" height="40" class="menumobile" onclick="toggleMenu()" />
+            <ul id="menu">
+                <li><a href="./" class="ativo">Home</a></li>
+                <li><a href="./">Economia</a></li>
+                <li>
+                    <a href="./">Entretenimento ▾</a>
+                    <div class="submenu">
+                        <a href="./">
+                            <div class="submenuitem">Entretenimento 1</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Entretenimento 2</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Entretenimento 3</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Entretenimento 4</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Entretenimento 5</div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="./">Esportes ▾</a>
+                    <div class="submenu">
+                        <a href="./">
+                            <div class="submenuitem">Esportes 1</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Esportes 2</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Esportes 3</div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="./">Geral</a></li>
+                <li>
+                    <a href="./">Notícias ▾</a>
+                    <div class="submenu">
+                        <a href="./">
+                            <div class="submenuitem">Notícias 1</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Notícias 2</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Notícias 3</div>
+                        </a>
+                        <a href="./">
+                            <div class="submenuitem">Notícias 4</div>
+                        </a>
+                    </div>
+                </li>
+                <li><a href="./">Polícia</a></li>
+                <li><a href="./">Videos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="ultimasnoticias">
+        <div class="ultimasnoticiasint">
+            <div class="ultnoticiasarea">
+                <div class="ultnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+                <div class="ultnoticiasnoticia">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus eros odio, fringilla feugiat nulla congue at. In eleifend nisl ut euismod pulvinar.</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="containerint">
+            <div class="leftside">
+                <div class="slideshow" id="slideshow">
+                    <div class="slidebolinhas">
+                        <div id="b0" class="bolinha" onclick="mudarSlide(0)"></div>
+                        <div id="b1" class="bolinha" onclick="mudarSlide(1)"></div>
+                        <div id="b2" class="bolinha" onclick="mudarSlide(2)"></div>
+                        <div id="b3" class="bolinha" onclick="mudarSlide(3)"></div>
+                    </div>
+                    <div class="slideshowarea">
+                        <a href="">
+                            <div class="slide" style="background-image:url('assets/images/new.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Titulo de teste para noticia 1</div>
+                                    <div class="slideinfo_subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus eros odio, fringilla feugiat nulla congue at. In eleifend nisl ut euismod pulvinar.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="slide" style="background-image:url('assets/images/new.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Titulo de teste para noticia 2</div>
+                                    <div class="slideinfo_subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus eros odio, fringilla feugiat nulla congue at. </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="slide" style="background-image:url('assets/images/new.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Titulo de teste para noticia 3</div>
+                                    <div class="slideinfo_subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus eros odio, fringilla feugiat nulla congue at. In eleifend nisl ut euismod pulvinar.</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="slide" style="background-image:url('assets/images/new.jpg')">
+                                <div class="slideinfo">
+                                    <div class="slideinfo_titulo">Titulo de teste para noticia 4</div>
+                                    <div class="slideinfo_subtitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus eros odio, fringilla feugiat nulla congue at. </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_titulo">NOTÍCIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="noticiaarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/new.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                <div class="noticiainfo">553 comentários</div>
+                            </div>
+                        </div>
+                        <div class="noticiaarea2">
+                            <a href="http://www.google.com.br/">
+                                <div class="noticiaitem">
+                                    <div class="noticiaimg">
+                                        <img src="assets/images/newp.jpg" width="80" height="80" />
+                                    </div>
+                                    <div class="noticiatitulo">Lorem ipsum dolor sit amet.</div>
+                                    <div class="noticiainfo">868 comentários</div>
+                                </div>
+                            </a>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/newp.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                <div class="noticiainfo">256 comentários</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/newp.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet.</div>
+                                <div class="noticiainfo">564 comentários</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/newp.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                <div class="noticiainfo">289 comentários</div>
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_titulo">NOTÍCIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="noticiaarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/new.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                <div class="noticiainfo">248 comentários</div>
+                            </div>
+                        </div>
+                        <div class="noticiaarea2">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/newp.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet.</div>
+                                <div class="noticiainfo">452 comentários</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/newp.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                <div class="noticiainfo">356 comentários</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/newp.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet.</div>
+                                <div class="noticiainfo">658 comentários</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/newp.jpg" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                <div class="noticiainfo">758 comentários</div>
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rightside">
+                <div class="widget">
+                    <div class="widget_titulo">SOCIAL</div>
+                    <div class="widget_conteudo">
+                        <a href=""><img src="assets/images/youtube.png" width="26" height="26" /></a>
+                        <a href=""><img src="assets/images/twitter.png" width="26" height="26" /></a>
+                        <a href=""><img src="assets/images/facebook.png" width="26" height="26" /></a>
+                        <a href=""><img src="assets/images/googleplus.png" width="26" height="26" /></a>
+                        <a href=""><img src="assets/images/rss.png" width="26" height="26" /></a>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="noticia_item">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="./">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">PUBLICIDADE</div>
+                    <div class="widget_conteudo">
+                        <img src="assets/images/publicidade.jpeg" style="margin-left: 10px;margin-right: 10px;" width="255" />
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+                    <div class="widget_conteudo">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2F&tabs&width=275&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="275" height="130" style="border:none;overflow:hidden"
+                            scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">FEITO COM ❤ POR <a href="https://github.com/ErnaneJ" target="_blank">ERNANE FERREIRA</a></div>
+                    <div class="widget_conteudo">
+                        <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="pt_BR" data-type="horizontal" data-theme="light" data-vanity="ernane"><a class="LI-simple-link" href='https://br.linkedin.com/in/ernane?trk=profile-badge'>Ernane Ferreira</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
